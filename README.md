@@ -19,32 +19,7 @@ val customPalette: List<RgbColor> = "F44336".toRgbColorOrNull()!!.createPalette(
 
 produces the following color palette:
 
-<div style="display: table">
-    <div style="display: table-row">
-        <div title="#FFEBEE" style="display: table-cell; background: #FFEBEE; width: 50px; height: 50px"></div>
-        <div title="#FFCDD2" style="display: table-cell; background: #FFCDD2; width: 50px; height: 50px"></div>
-        <div title="#EF9A9A" style="display: table-cell; background: #EF9A9A; width: 50px; height: 50px"></div>
-        <div title="#E57373" style="display: table-cell; background: #E57373; width: 50px; height: 50px"></div>
-        <div title="#EF5350" style="display: table-cell; background: #EF5350; width: 50px; height: 50px"></div>
-        <div title="#F44336" style="display: table-cell; background: #F44336; width: 50px; height: 50px"></div>
-        <div title="#E53935" style="display: table-cell; background: #E53935; width: 50px; height: 50px"></div>
-        <div title="#D32F2F" style="display: table-cell; background: #D32F2F; width: 50px; height: 50px"></div>
-        <div title="#C62828" style="display: table-cell; background: #C62828; width: 50px; height: 50px"></div>
-        <div title="#B71B1C" style="display: table-cell; background: #B71B1C; width: 50px; height: 50px"></div>
-    </div>
-    <div style="display: table-row">
-        <div style="display: table-cell; text-align: center">50</div>
-        <div style="display: table-cell; text-align: center">100</div>
-        <div style="display: table-cell; text-align: center">200</div>
-        <div style="display: table-cell; text-align: center">300</div>
-        <div style="display: table-cell; text-align: center">400</div>
-        <div style="display: table-cell; text-align: center">500</div>
-        <div style="display: table-cell; text-align: center">600</div>
-        <div style="display: table-cell; text-align: center">700</div>
-        <div style="display: table-cell; text-align: center">800</div>
-        <div style="display: table-cell; text-align: center">900</div>
-    </div>
-</div>
+![Red palette](red-palette.png "Red palette")
 
 ```kotlin
 listOf(
